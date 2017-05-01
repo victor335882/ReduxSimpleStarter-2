@@ -14,6 +14,7 @@ class BookList extends Component {
           className = "list-group-item">
           {book.title}
         </li>
+
       )
     })
   }
