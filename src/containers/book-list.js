@@ -38,7 +38,7 @@ class BookList extends Component {
 //whenever the application state change, this conpoment will instantly render
 function mapStateToProps(state) {
   //Whatever is returned will show up as props
-  //inside of
+  //inside of our react component,BookList.
   return {
     books:state.books
   };
@@ -48,5 +48,5 @@ function mapStateToProps(state) {
 //that's why we delete export default before
 //before we want to export this container
 //whenever we re-render the mapStateToPoros conpoment
-//the props will instantly push into react BookList function
+//the props will instantly push into react component,BookList.
 export default connect(mapStateToProps)(BookList);
